@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include lucien *.css
+recursive-include lucien *.csv
+recursive-include lucien *.html
+recursive-include lucien *.ico
+recursive-include lucien *.js
+recursive-include lucien *.json
+recursive-include lucien *.md
+recursive-include lucien *.png
+recursive-include lucien *.py
+recursive-include lucien *.svg
+recursive-include lucien *.txt
+recursive-exclude lucien *.pyc
